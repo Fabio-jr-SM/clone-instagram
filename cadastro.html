@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&  display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/styles/cadastro.css">
+    <link rel="shortcut icon" href="src/imgs/logo-insta.png" type="image/x-icon">
+    <title>Cadastre-se • Instagram</title>
+</head>
+<body>
+    <div id="filtro"></div>
+    <main>
+        <div id="main-card">
+            <div id="logo">
+                <img src="src/imgs/logo-insta-text.png" alt="Instagram">
+            </div>
+            
+            <div id="title">
+                Cadastre-se para ver fotos e vídeos dos seus amigos.
+            </div>
+
+            <div id="fb-button">
+                <img src="src/imgs/icone-fb-branco.png">
+                <a href="https://www.facebook.com/login/">Entrar com o Facebook</a>
+            </div>
+
+            <div id="ou">
+                <div class="line"></div>
+                OU
+                <div class="line"></div>
+            </div>
+
+            <form method="get">
+                <input type="text" name="email" id="email" required>
+                <label for="email" id="el">Número do celular ou email</label>
+
+                <input type="text" name="nome-completo" id="nome-completo" required>
+                <label for="nome-completo" id="ncl">Nome completo</label>
+
+                <input type="text" name="nome-usuario" id="nome-usuario" required>
+                <label for="nome-usuario" id="nul">Nome de usuário</label>
+
+                <input type="password" name="password" id="password" required>
+                <label for="password" id="pl">Senha</label>
+                <label for="password" id="show-password">Mostrar</label>
+
+                <div id="info">
+                    <div id="fi">
+                        As pessoas que usam nosso serviço podem ter enviado suas informações de contato para o Instagram. <a href="https://www.facebook.com/help/instagram/261704639352628" target="_blank">Saiba mais</a>
+                    </div>
+    
+                    <div id="si">
+                        Ao se cadastrar, você concorda com nossos <a href="https://help.instagram.com/581066165581870/?locale=pt_BR" target="_blank">Termos</a>, <a href="https://www.facebook.com/privacy/policy" target="_blank">Política de Privacidade</a> e <a href="https://help.instagram.com/1896641480634370/" target="_blank">Política de Cookies</a>.
+                    </div>
+                </div>
+
+                <button type="submit" disabled>
+                    Cadastre-se
+                </button>
+            </form>
+        </div>
+
+        <div id="second-card">
+            Tem uma conta? <a href="index.html">Conecte-se</a>
+        </div>
+
+        <div id="obtenha">
+            <span>Obtenha o aplicativo.</span>
+            <div id="download">
+                <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D42F3CC05-1829-466D-AC1A-2638D4264C20%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge" target="_blank"><img src="src/imgs/baixe-googleplay.png" alt="Google Play" id="gp"></a>
+                <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=0%2C0%2C1920%2C1040" target="_blank"><img src="src/imgs/botao-microsoft.png" alt="Microsoft" id="mc"></a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="first">
+            <span>Meta</span>
+            <span>Sobre</span>
+            <span>Blog</span>
+            <span>Carreiras</span>
+            <span>Ajuda</span>
+            <span>API</span>
+            <span>Privacidade</span>
+            <span>Termos</span>
+            <span>Principais contas</span>
+            <span>Localizações</span>
+            <span>Instagram Lite</span>
+            <span>Threads</span>
+            <span>Carregamento de contatos e não usuários</span>
+            <span>Meta Verified</span>
+        </div>
+        <div id="second">
+            <span>Português (Brasil)</span>
+            <span>© 2023 Instagram from Meta</span>
+        </div>    
+    </footer>
+</body>
+<script src="src/scripts/button-disabled.js"></script>
+<script src="src/scripts/show-password.js"></script>
+</html>
