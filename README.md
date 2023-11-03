@@ -24,7 +24,6 @@ Para este projeto, utilizei as seguintes tecnologias 👩🏿‍💻:
 OBS.: Por conta da semelhança do projeto com o site oficial do Instagram, precisei adicionar um filtro/marca d'água nas páginas para que a 
 ferramenta do Google não aponte o site do projeto como um site possivelmente inseguro.
 
-🔗 <a href="https://eytorlima.github.io/clone-instagram/" target="_blank">Veja aqui</a> o resultado do projeto! 🔗
 <br>
 
 <strong>⚠️ APLICAÇÃO NÃO FUNCIONAL (APENAS FRONTEND) ⚠️</strong>
